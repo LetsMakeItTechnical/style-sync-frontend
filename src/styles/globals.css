@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+.calendar-container {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .calendar-container {
+    padding: 10px;
+  }
+}
+
+.calendar-container button {
+  padding: 10px 15px; /* Default padding */
+}
+
+@media (max-width: 480px) {
+  .calendar-container button {
+    padding: 8px 10px; /* Slightly smaller padding for mobile */
+    font-size: 0.8rem; /* Smaller font-size for mobile */
+  }
+}
